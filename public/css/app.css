@@ -1,0 +1,41 @@
+.container {
+  width: 100%; }
+
+.dashed-border {
+  border-style: dashed; }
+
+.h-spacing-8 {
+  margin: 0px 4px; }
+
+.step-label-finished {
+  background-color: transparent;
+  border: 2px solid #5cb85c;
+  color: #5cb85c;
+  padding: .12em .28em 0.12em; }
+
+.step-label-todo {
+  background-color: transparent;
+  border: 3px solid #777;
+  color: #777;
+  padding: .1em .38em 0.1em; }
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px; }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5; }
+
+.footer .container .text-muted {
+  margin: 20px 0; }
